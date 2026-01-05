@@ -1,0 +1,51 @@
+# --- Python / Machine Learning ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+bin/
+lib/
+# Model checkpoints and large datasets
+*.pth
+*.h5
+*.joblib
+*.pkl
+*.csv
+*.json
+# (Add specific data folders below if you have them, e.g., data/)
+# data/
+
+# --- Windows System Files ---
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# --- macOS (Just in case you share with Mac users) ---
+.DS_Store
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Environment Variables (Security) ---
+.env
+.venv
+
+# Ignore the Dataset folder (Images & Labels)
+dataset/
+extracted_frames/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# OPTIONAL: Ignore heavy model weights (if over 100MB)
+# If you want to share your model, remove the line below.
+*.pt
+
+human_detection_project/

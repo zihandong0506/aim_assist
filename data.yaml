@@ -1,0 +1,15 @@
+# data.yaml
+# Training data configuration for Human Body Part Detection
+
+# Paths to the dataset (Relative to your project root)
+path: ./dataset
+train: images/train
+val: images/val
+
+# Class Names mapping to ID
+# Note: We removed "Chest".
+# 0: Head
+# 1: Body
+names:
+  0: head
+  1: body

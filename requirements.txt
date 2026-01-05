@@ -1,0 +1,13 @@
+# --- Core AI (Required on both Mac and Windows) ---
+mss                   # Screen capture for data collection
+ultralytics>=8.2.0    # Includes YOLO and PyTorch (MPS/CUDA handled auto)
+numpy<2.0.0           # Stability for OpenCV
+
+# --- Windows Automation (Ignored by Mac automatically) ---
+dxcam[cv2]; sys_platform == 'win32'
+pyautogui; sys_platform == 'win32'
+keyboard; sys_platform == 'win32'
+pywin32; sys_platform == 'win32'
+
+# --- Dev Tools ---
+black                 # Code formatting
