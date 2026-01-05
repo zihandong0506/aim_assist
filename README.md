@@ -1,8 +1,8 @@
-# YOLOv8 Human Detection Project 🎯
+# Counter Strike 2 AI aimbot 
 
 This repository contains a complete pipeline for training a custom YOLOv8 model to detect human **Heads** and **Bodies**, optimized for Apple Silicon (M-Series chips).
 
-## 📦 1. Installation & Setup
+## 📦 1. Installation & Setup (Model Training)
 
 Before running the scripts, set up your Python environment.
 
